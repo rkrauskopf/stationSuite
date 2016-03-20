@@ -4,7 +4,7 @@ var assert = require('assert');
 
 var app = express();
 
-var dataInMilliSeconds = 15 * 60000; //60,000 milliseconds in a minute
+var dataInMilliSeconds = 30 * 60000; //60,000 milliseconds in a minute
 
 app.get('/graphData', function (req, res) {
 
